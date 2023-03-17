@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMS COLLEGE OF ENGINEEERING</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link  rel="stylesheeet" href="css\style.css">
+<style>
+    body{
+        font-family: 'Anton', sans-serif;
+        color:black;
+        margin: 0px;
+        padding:0px;
+        background:url("clg.jpg");
+        background-size: cover;
+    }
+    .left img{
+        width: 130px;
+    }
+    .left{
+        position:absolute;
+        left:10px;
+        top:0px;
+        display: inline-block;
+        /* border:2px solid red; */
+    }
+    .mid{
+        /*border:2px solid red;*/
+        width: 60%;
+        margin: auto;
+    
+    }
+    .right{
+        position:absolute;
+        right: 20px;
+        top:30px;
+        display: inline-block;
+        /*border:2px solid yellow;*/
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color:rgb(163, 29, 29);
+        text-decoration: none;
+        padding: 34px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color:green;
+    }
+    .left div{
+        text-align: center;
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .btn{
+        font-family: 'Anton', sans-serif;
+        margin: 0px 9px;
+        color: rgb(92, 18, 203);
+        background-color:skyblue;
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: blue;
+    }
+    .container{
+        /*border: 2px solid red;*/
+        margin: 100px 10px;
+        padding: 10px;
+        width: 50%;
+        border-radius: 10px;
+    }
+    .form-group input{
+       font-family: 'Anton', sans-serif;
+       text-align: center;
+       display:block ;
+       width: 500px;
+       border: 2px solid black;
+       padding: 2px;
+       margin: 11px auto; 
+       border-radius: 8px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>BMSCE
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Email us</button>
+            <button class="btn">Call us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Bmsce now</h1>
+        <form action="no action.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Date of Birth">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter which course you want to join">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+</html>
